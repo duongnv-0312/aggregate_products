@@ -1,0 +1,12 @@
+common: &common
+  columns:
+    customs_code: "CUSTOMS CODE"
+    total_convert: "TỔNG CONVERT"
+development:
+  <<: *common
+
+test:
+  <<: *common
+
+production:
+  <<: *common
